@@ -161,7 +161,7 @@ logo=("""\
  [•] Author     :  ZAIN
  [•] Facebook   :  ZAIN
  [•] Tool       :  PAID
- [•] Version    :  46.6
+ [•] Version    :  46.8
 \033[1;37m----------------------------------------------""")
 def linex():
 	print('\033[1;37m----------------------------------------------')
@@ -368,7 +368,7 @@ def api2(ids,names,passlist):
                         en = random.choice(['en_US','en_GB'])
                         cph = random.choice(['CPH1979','CPH1983','CPH1987','CPH2005','CPH2009','CPH2015','CPH2059','CPH2061','CPH2065','CPH2069','CPH2071','CPH2073','CPH2077','CPH2091','CPH2095','CPH2099','CPH2137','CPH2139','CPH2145','CPH2161','CPH2185','CPH2201','CPH2209','CPH1801','CPH1803','CPH1805','CPH1809','CPH1827','CPH1837','CPH1851','CPH1853'])
                         network = random.choice(['Zong','null','Marshmallow','Telekom China'])
-                        ua  = '[FBAN/FB4A;FBAV/380.0.0.40.40;FBBV/46917602;[FBAN/FB4A;FBAV/422.0.0.51.162;FBBV/25946050;FBDM/{density=2.0,width=568,height=2525};FBLC/en_US;FBRV/25013824;FBCR/Verizon;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/Samsung S22;FBSV/12;FBOP/19;FBCA/arm64-v8a:;]'
+                        ua  = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))+";[FBAN/FB4A;FBAV/380.0.0.40.40;FBBV/46917602;[FBAN/FB4A;FBAV/422.0.0.51.162;FBBV/25946050;FBDM/{density=2.0,width=568,height=2525};FBLC/en_US;FBRV/25013824;FBCR/AT&T;FBMF/tecno;FBBD/tecno;FBPN/com.facebook.katana;FBDV/Tecno Spark 7;FBSV/14;FBOP/19;FBCA/arm64-v8a:;]"
                         random_seed = random.Random()
                         adid = str(''.join(random_seed.choices(string.hexdigits, k=16)))
                         device_id = str(uuid.uuid4())
