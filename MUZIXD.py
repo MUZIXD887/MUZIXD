@@ -233,7 +233,7 @@ def pp():
 	clear()
 	print(' [•] wait checking approval...!')
 	try:
-			li = ['https://github.com/MUZIXD887/Approval/blob/main/Approval.txt']
+			li = ['https://github.com/MUZIXD887/Approval.txt/blob/main/Approval.txt']
 			li = ''.join(li)
 			ck = requests.get(f'{li}').text
 			if ky in ck:
