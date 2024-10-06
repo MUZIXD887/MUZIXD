@@ -1,4 +1,4 @@
-# Compiled By Mr Mafia | Muhammad Muzammil
+# Compiled By Mr Mafia | Muhammad Muzammil Hussain
 # Github :  https://github.com/Muzammil-404
 
 import marshal,zlib,base64
